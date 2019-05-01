@@ -1,0 +1,31 @@
+#----------------------------------------
+# SBT
+# - Ignore files : .history
+# - Ignore all "target" directories 
+#   - at root
+#   - in projet directory
+#   - in projet/project directory
+#   - in all first level directories (corresponding to modules)
+#----------------------------------------
+/.history
+/target/
+/project/target/
+/project/project/target/
+/*/target/
+
+#----------------------------------------
+# Intellij
+# - Ignore all .idea directory content except
+#   - directories : runConfigurations
+#----------------------------------------
+*.iml
+/.idea/*
+!/.idea/runConfigurations/
+# !/.idea/sbt.xml
+
+#----------------------------------------
+# Azure Function
+#----------------------------------------
+/obj/
+/bin/
+

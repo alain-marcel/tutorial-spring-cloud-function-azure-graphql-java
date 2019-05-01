@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    function:
+      scan:
+        packages: org.amarcel.app
+
+graphql:
+  servlet:
+    mapping: /graphql-servlet
