@@ -1,6 +1,16 @@
-Package
+Context
 =======
-mvn clean package
+GraphQL using Spring Boot works well.
+See for example https://github.com/sambenskin/graphql-spring-boot-tutorial/blob/master/Readme.md
+Just download and execute.
+
+GraphQL with Spring Cloud Function and azure is the challenge.
+This application is an "hello world" application, but it still not works. 
+
+
+Package the application
+=======================
+Download from this site and execute : mvn clean package
 
 Launch with ide_spring_boot__run_app.bat
 ========================================
