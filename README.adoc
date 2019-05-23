@@ -18,7 +18,7 @@ POST http://localhost:8080/graphql with body { "query": "{pets{name}}" }
 This will return 
 [source,json]
 ----
- {"data":{"pets":[{"name": "Billou" }, {"name": "Boullou" }] }}
+ {"data":{"pets":[{"name": "Billou" }, {"name": "Bob" }] }}
 ----
 
 == Launch with ide_azure__run_app.bat (run azure function locally)

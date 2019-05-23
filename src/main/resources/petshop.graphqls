@@ -1,4 +1,5 @@
 type Query {
+    animal: Animal
     pets: [Pet]
 }
 
@@ -8,3 +9,65 @@ type Pet {
     age: Int
 }
 
+type AppDescription {
+    appName: String!
+    appVersion: String!
+}
+
+type Animal {
+    prop1: String
+    prop2: String
+    prop3: String
+    prop4: String
+    prop5: String
+    prop6: String
+    prop7: String
+    prop8: String
+    prop9: String
+    prop10: String
+    prop11: String
+    prop12: String
+    prop13: String
+    prop14: String
+    prop15: String
+    prop16: String
+    prop17: String
+    prop18: String
+    prop19: String
+    prop20: String
+    prop21: String
+    prop22: String
+#    prop23: String
+#    prop24: String
+#    prop25: String
+}
+
+enum Age {
+    Age0
+    Age1
+    Age2
+    Age3
+    Age4
+    Age5
+    Age6
+    Age7
+    Age8
+    Age9
+    Age10
+    Age11
+    Age12
+    Age13
+    Age14
+    Age15
+    Age16
+    Age17
+    Age18
+    Age19
+    Age20
+    Age21
+    Age22
+    Age23
+    Age24
+    Age25
+    Age26
+}
