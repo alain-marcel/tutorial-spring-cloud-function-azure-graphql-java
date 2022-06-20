@@ -27,7 +27,7 @@
     <stagingDirectory>${project.build.directory}/azure-functions/${ide.functionAppName}</stagingDirectory>
     <start-class>org.amarcel.app.SpringBootApp</start-class>
     <wrapper.version>1.0.15.RELEASE</wrapper.version>
-    <kotlin.version>1.3.10</kotlin.version>
+    <kotlin.version>1.6.0</kotlin.version>
     <kotlin-coroutines.version>1.0.1</kotlin-coroutines.version>
   </properties>
 
